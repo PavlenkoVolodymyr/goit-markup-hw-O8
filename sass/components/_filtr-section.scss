@@ -2,8 +2,12 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  padding: 0;
-  text-align: center;
+  // padding: 0;
+  // text-align: center;
+  @media screen and (max-width: 767px) {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
 }
 
 .filtr__item:not(:last-child) {

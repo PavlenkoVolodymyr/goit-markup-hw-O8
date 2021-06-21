@@ -18,10 +18,23 @@
 .header-navigation {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 767px) {
+    justify-content: space-between;
+  }
 }
 
 .header-meny__item:not(:first-child) {
   margin-left: 50px;
+}
+
+.header-meny {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .header-meny,
@@ -106,5 +119,11 @@
   &:hover,
   &:focus {
     fill: $accent-color;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
   }
 }
