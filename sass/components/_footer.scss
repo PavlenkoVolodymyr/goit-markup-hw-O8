@@ -1,0 +1,137 @@
+.footer {
+  background-color: $primary-color-hf;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: $primary-white-color;
+
+  & .social-list__link:hover,
+  & .social-list__link:focus {
+    color: $primary-white-color;
+    background-color: $accent-color;
+  }
+}
+
+.social-list__footer {
+  display: flex;
+}
+
+.footer .social-list__link {
+  color: $primary-white-color;
+  background-color: $icon-social-bg;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .a {
+  font-style: normal;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contact__item {
+  & a:hover,
+  & a:focus {
+    color: $accent-color;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-contact__list {
+  line-height: 1.71;
+  padding: 0;
+}
+
+.footer-contact__link {
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $primary-white-color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contact__mailto,
+.footer-contact__tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $footer-address-color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-address-mailto {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.footer-social {
+  margin-left: 70px;
+}
+
+.footer__text {
+  font-weight: 700;
+  line-height: 1.14;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.mailings {
+  margin-left: 93px;
+}
+
+.footer__input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  border-radius: 4px;
+  padding: 15px 16px;
+  line-height: 1.25;
+  font-size: 16px;
+  color: $footer-address-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
+}
+
+.footer__btn {
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  background-color: $accent-color;
+  color: $primary-white-color;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $link-services-color;
+  }
+}
+
+.footer__btn-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  fill: $primary-white-color;
+}

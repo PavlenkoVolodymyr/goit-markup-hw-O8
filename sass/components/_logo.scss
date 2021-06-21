@@ -1,0 +1,27 @@
+.logo {
+  font-weight: 700;
+  font-family: $font-logo;
+  font-size: 26px;
+  line-height: 1.19;
+  color: $accent-color;
+  text-decoration: none;
+  display: block;
+}
+
+.header__logo {
+  margin-right: 93px;
+}
+
+.header__logo--black {
+  color: $primary-black-color;
+}
+
+// footer-logo
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__logo--white {
+  color: $primary-white-color;
+}
