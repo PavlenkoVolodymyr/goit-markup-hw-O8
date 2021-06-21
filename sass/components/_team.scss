@@ -2,6 +2,11 @@
   background-color: $secondary-bg-color;
 }
 
+.team__img {
+  width: 260px;
+  height: 260px;
+}
+
 .team__list {
   display: flex;
   flex-direction: column;

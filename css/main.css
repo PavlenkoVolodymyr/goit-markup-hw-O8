@@ -848,6 +848,11 @@ img {
   background-color: #f5f4fa;
 }
 
+.team__img {
+  width: 260px;
+  height: 260px;
+}
+
 .team__list {
   display: flex;
   flex-direction: column;
@@ -1393,7 +1398,7 @@ img {
 }
 
 .service__jpg-style {
-  padding: 20px 24px;
+  padding-left: 15px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
