@@ -13,27 +13,38 @@
 
 .clients__list {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
+  margin-bottom: -30px;
 
-  @media screen and (min-width: 480px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  // @media screen and (min-width: 480px) {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  // }
 }
 
-.clients__item:not(:last-child) {
+.clients__item:nth-child(2n-1) {
   margin-right: 30px;
-
-  @media screen and (min-width: 480px) {
-    width: calc((100% - 60px) / 2);
-  }
-  @media screen and (min-width: 768px) {
-    width: calc((100% - 90px) / 3);
-  }
-  @media screen and (min-width: 1200px) {
-    width: calc((100% - 180px) / 6);
-  }
 }
+
+.clients__item {
+  margin-bottom: 30px;
+  width: calc((100% - 1 * 30px) / 2);
+}
+
+// .clients__item:not(:last-child) {
+//   margin-right: 30px;
+
+// @media screen and (min-width: 480px) {
+//   width: calc((100% - 60px) / 2);
+// }
+// @media screen and (min-width: 768px) {
+//   width: calc((100% - 90px) / 3);
+// }
+// @media screen and (min-width: 1200px) {
+//   width: calc((100% - 180px) / 6);
+// }
+// }
 
 .clients__link {
   display: inline-flex;
@@ -53,14 +64,14 @@
     color: $accent-color;
   }
 
-  @media screen and (min-width: 480px) {
-    width: 210px;
-    flex-wrap: wrap;
-  }
+  // @media screen and (min-width: 480px) {
+  //   width: 210px;
+  //   flex-wrap: wrap;
+  // }
 
-  @media screen and (min-width: 1200px) {
-    width: 170px;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   width: 170px;
+  // }
 }
 
 .clients__icon {
