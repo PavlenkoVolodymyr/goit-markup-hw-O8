@@ -683,6 +683,14 @@ img {
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .features__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+  }
+}
+
 .features__item {
   margin: 30px;
 }

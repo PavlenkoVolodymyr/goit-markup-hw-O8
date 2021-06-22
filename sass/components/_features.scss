@@ -9,16 +9,15 @@
 }
 
 .features__list {
-  // display: flex;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-  // // flex-wrap: wrap;
 
-  // @media screen and (max-width: 768px) {
-  //   display: flex;
-  //   flex-wrap: wrap;
-  // }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+  }
 
   // @media screen and (min-width: 1200px) {
   //   display: flex;
