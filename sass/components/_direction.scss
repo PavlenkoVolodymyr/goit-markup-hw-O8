@@ -1,9 +1,7 @@
 .direction {
-  padding-top: 47px;
-  padding-bottom: 94px;
-
-  @media screen and (max-width: 1199px) {
-    display: none;
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
   }
 }
 
@@ -13,11 +11,6 @@
   text-align: center;
   color: $title-text-color;
   margin-bottom: 30px;
-
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 50px;
-    font-size: 36px;
-  }
 }
 
 .direction__item {

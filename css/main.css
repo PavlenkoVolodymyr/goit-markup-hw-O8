@@ -780,13 +780,12 @@ img {
 }
 
 .direction {
-  padding-top: 47px;
-  padding-bottom: 94px;
+  display: none;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .direction {
-    display: none;
+    display: block;
   }
 }
 
@@ -796,13 +795,6 @@ img {
   text-align: center;
   color: #212121;
   margin-bottom: 30px;
-}
-
-@media screen and (min-width: 1200px) {
-  .direction__title {
-    margin-bottom: 50px;
-    font-size: 36px;
-  }
 }
 
 .direction__item {
