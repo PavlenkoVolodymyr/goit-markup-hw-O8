@@ -46,6 +46,16 @@
     display: block;
     text-align: center;
   }
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.footer__label-flex {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .address {
