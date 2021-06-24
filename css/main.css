@@ -1767,6 +1767,10 @@ img {
   fill: currentColor;
 }
 
+.agreement-input {
+  min-width: 15px;
+}
+
 .form-title {
   margin: 0;
   margin-bottom: 12px;
