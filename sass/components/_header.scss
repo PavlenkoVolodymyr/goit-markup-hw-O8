@@ -231,6 +231,12 @@
   }
 }
 
+.header-contact--right {
+  margin-top: auto;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column-reverse;
+}
 .header-contact__link {
   position: relative;
   padding-top: 16px;
