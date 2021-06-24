@@ -1,3 +1,7 @@
+.filter .contsiner {
+  max-width: 450px;
+}
+
 .nav-button {
   display: flex;
   flex-wrap: wrap;
@@ -141,9 +145,9 @@
   position: relative;
   overflow: hidden;
 
-  @media screen and (max-width: 467px) {
-    max-width: 450px;
-  }
+  // @media screen and (max-width: 467px) {
+  //   max-width: 450px;
+  // }
 }
 
 .service__title {
