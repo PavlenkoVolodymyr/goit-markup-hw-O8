@@ -1716,6 +1716,8 @@ img {
 }
 
 .backdrop {
+  padding-left: 15px;
+  padding-right: 15px;
   position: fixed;
   top: 0;
   left: 0;
