@@ -722,15 +722,20 @@ img {
 }
 
 .header-contact__icon {
-  display: inline-flex;
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  fill: currentColor;
+  display: none;
 }
 
-.header-contact__icon:hover, .header-contact__icon:focus {
-  fill: #2196f3;
+@media screen and (min-width: 768px) {
+  .header-contact__icon {
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  .header-contact__icon:hover, .header-contact__icon:focus {
+    fill: #2196f3;
+  }
 }
 
 .logo {
