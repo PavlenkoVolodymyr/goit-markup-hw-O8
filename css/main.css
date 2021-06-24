@@ -1665,6 +1665,12 @@ img {
   overflow: hidden;
 }
 
+@media screen and (max-width: 467px) {
+  .service__block {
+    max-width: 450px;
+  }
+}
+
 .service__title {
   font-weight: bold;
   font-size: 18px;
